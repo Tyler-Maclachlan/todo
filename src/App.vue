@@ -78,25 +78,28 @@ html,
   border-bottom: 1px solid #fff;
 }
 
-.todo-desc {
-  font-size: 18px;
-  color: white;
-  cursor: text;
-}
-
 .todo-del {
   font-size: 24px;
   color: red;
   cursor: pointer;
 }
 
-.todo-input {
+.todo-input,
+.todo-input-desc {
   width: 80%;
   height: 100%;
   padding: 5px;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   border: none;
+}
+
+.todo-input-desc {
+  background: transparent;
+  font-size: 18px;
+  color: white;
+  cursor: text;
+  border-bottom: 1px solid white;
 }
 
 .todo-btn {
